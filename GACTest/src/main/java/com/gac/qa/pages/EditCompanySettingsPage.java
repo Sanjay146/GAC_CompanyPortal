@@ -3,6 +3,7 @@ package com.gac.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.gac.qa.base.TestBase;
 
@@ -74,7 +75,13 @@ public class EditCompanySettingsPage extends TestBase {
 		contactNumber.clear();
 		contactNumber.sendKeys(contact);
 		country.clear();
-		country.sendKeys(cntry);
+		Select select = new Select(country);
+		select.selectByVisibleText(cntry);
+		
+		if(status.equals("Active")) {
+			radioBtnActive.click();
+		}
+		else radioBtnInactive.click();
 		
 	}
 	
