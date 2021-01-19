@@ -1,13 +1,10 @@
 package com.gac.qa.pages;
 
-
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.gac.qa.base.TestBase;
-
 
 public class CompanySettingsPage extends TestBase {
 	
@@ -25,9 +22,10 @@ public class CompanySettingsPage extends TestBase {
 		companySettingLabel.isDisplayed();
 	}
 	
-	public EditProfileSettingPage clickOnEditBtn() {
+	public EditCompanySettingsPage clickOnEditBtn() {
 		editBtn.click();
-		return new EditProfileSettingPage();
+		return new EditCompanySettingsPage();
 	}
+
 
 }

@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -37,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-skipped">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite">
+              <span class="suite-name border-passed">GAC Company Portal Test Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\perennial\AppData\Local\Temp\testng-eclipse-1749777228\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-GAC_Company_Portal_Test_Automation_Suite">
+                    <span>C:\Users\perennial\git\GAC_CompanyPortal\GACTest\src\main\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-GAC_Company_Portal_Test_Automation_Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-GAC_Company_Portal_Test_Automation_Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-GAC_Company_Portal_Test_Automation_Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-GAC_Company_Portal_Test_Automation_Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-GAC_Company_Portal_Test_Automation_Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-GAC_Company_Portal_Test_Automation_Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,31 +93,121 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                    <span class="method-stats">21 methods,   21 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" class="hide-methods passed suite-GAC_Company_Portal_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-GAC_Company_Portal_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" class="show-methods passed suite-GAC_Company_Portal_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-GAC_Company_Portal_Test_Automation_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Default_suite">
+                    <div class="method-list-content passed suite-GAC_Company_Portal_Test_Automation_Suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ChangePasswordPageTest" hash-for-method="changePasswordTest(Test@123, Test@1234)">changePasswordTest(Test@123, Test@1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ChangePasswordPageTest" hash-for-method="changePasswordTest(Test@1234, Test@123)">changePasswordTest(Test@1234, Test@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="validateLogo2c2pTest">validateLogo2c2pTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ProfileSettingPageTest" hash-for-method="clickOnChangePasswordBtnTest">clickOnChangePasswordBtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ProfileSettingPageTest" hash-for-method="clickOnEditBtnTest">clickOnEditBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditProfileSettingPageTest" hash-for-method="editProfileSettingTest(gaurav , sup, 9.657583258E9, 12345.0, QA)">editProfileSettingTest(gaurav , sup, 9.657583258E9, 12345.0, QA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditProfileSettingPageTest" hash-for-method="editProfileSettingTest(gaurav sup, QA, 9.1965758E7, 123456.0, GAC)">editProfileSettingTest(gaurav sup, QA, 9.1965758E7, 123456.0, GAC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditCompanySettingsPageTest" hash-for-method="enterCompanySettingsTest(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active)">enterCompanySettingsTest(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditCompanySettingsPageTest" hash-for-method="enterCompanySettingsTest(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active)">enterCompanySettingsTest(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.LoginPageTest" hash-for-method="validateLogo2c2pTest">validateLogo2c2pTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditProfileSettingPageTest" hash-for-method="veifyEditLabelTest">veifyEditLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ChangePasswordPageTest" hash-for-method="verifyChangePasswordLabelTest">verifyChangePasswordLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.CompanySettingsPageTest" hash-for-method="verifyCompanySettingsLabelTest">verifyCompanySettingsLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.EditCompanySettingsPageTest" hash-for-method="verifyCompanySettingsLabelTest">verifyCompanySettingsLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.DashboardPageTest" hash-for-method="verifyCompanySettingsLinkTest">verifyCompanySettingsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.DashboardPageTest" hash-for-method="verifyDashboardPageTitleTest">verifyDashboardPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.DashboardPageTest" hash-for-method="verifyLogoutTest">verifyLogoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.ProfileSettingPageTest" hash-for-method="verifyProfileSettingLabelTest">verifyProfileSettingLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.DashboardPageTest" hash-for-method="verifyProfileSettingLinkTest">verifyProfileSettingLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" title="com.gac.qa.testcases.DashboardPageTest" hash-for-method="verifyUserNameTest">verifyUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GAC_Company_Portal_Test_Automation_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,10 +218,190 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-skipped">
+        <div panel-name="suite-GAC_Company_Portal_Test_Automation_Suite" class="panel GAC_Company_Portal_Test_Automation_Suite">
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.CompanySettingsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanySettingsLabelTest">
+                  </a> <!-- verifyCompanySettingsLabelTest -->
+                  <span class="method-name">verifyCompanySettingsLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.ProfileSettingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnChangePasswordBtnTest">
+                  </a> <!-- clickOnChangePasswordBtnTest -->
+                  <span class="method-name">clickOnChangePasswordBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnEditBtnTest">
+                  </a> <!-- clickOnEditBtnTest -->
+                  <span class="method-name">clickOnEditBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProfileSettingLabelTest">
+                  </a> <!-- verifyProfileSettingLabelTest -->
+                  <span class="method-name">verifyProfileSettingLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.EditCompanySettingsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCompanySettingsTest(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active)">
+                  </a> <!-- enterCompanySettingsTest(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active) -->
+                  <span class="method-name">enterCompanySettingsTest</span>
+                  <span class="parameters">(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCompanySettingsTest(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active)">
+                  </a> <!-- enterCompanySettingsTest(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active) -->
+                  <span class="method-name">enterCompanySettingsTest</span>
+                  <span class="parameters">(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanySettingsLabelTest">
+                  </a> <!-- verifyCompanySettingsLabelTest -->
+                  <span class="method-name">verifyCompanySettingsLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.ChangePasswordPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Test@123, Test@1234)">
+                  </a> <!-- changePasswordTest(Test@123, Test@1234) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Test@123, Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Test@1234, Test@123)">
+                  </a> <!-- changePasswordTest(Test@1234, Test@123) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Test@1234, Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChangePasswordLabelTest">
+                  </a> <!-- verifyChangePasswordLabelTest -->
+                  <span class="method-name">verifyChangePasswordLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.EditProfileSettingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProfileSettingTest(gaurav , sup, 9.657583258E9, 12345.0, QA)">
+                  </a> <!-- editProfileSettingTest(gaurav , sup, 9.657583258E9, 12345.0, QA) -->
+                  <span class="method-name">editProfileSettingTest</span>
+                  <span class="parameters">(gaurav , sup, 9.657583258E9, 12345.0, QA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editProfileSettingTest(gaurav sup, QA, 9.1965758E7, 123456.0, GAC)">
+                  </a> <!-- editProfileSettingTest(gaurav sup, QA, 9.1965758E7, 123456.0, GAC) -->
+                  <span class="method-name">editProfileSettingTest</span>
+                  <span class="parameters">(gaurav sup, QA, 9.1965758E7, 123456.0, GAC)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="veifyEditLabelTest">
+                  </a> <!-- veifyEditLabelTest -->
+                  <span class="method-name">veifyEditLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.gac.qa.testcases.DashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanySettingsLinkTest">
+                  </a> <!-- verifyCompanySettingsLinkTest -->
+                  <span class="method-name">verifyCompanySettingsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashboardPageTitleTest">
+                  </a> <!-- verifyDashboardPageTitleTest -->
+                  <span class="method-name">verifyDashboardPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutTest">
+                  </a> <!-- verifyLogoutTest -->
+                  <span class="method-name">verifyLogoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProfileSettingLinkTest">
+                  </a> <!-- verifyProfileSettingLinkTest -->
+                  <span class="method-name">verifyProfileSettingLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserNameTest">
+                  </a> <!-- verifyUserNameTest -->
+                  <span class="method-name">verifyUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+          <div class="suite-GAC_Company_Portal_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.gac.qa.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -138,47 +410,6 @@
                   <a name="loginPageTitleTest">
                   </a> <!-- loginPageTitleTest -->
                   <span class="method-name">loginPageTitleTest</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\perennial\PS-workspace\GACTest\Drivers\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.gac.qa.base.TestBase.initialization(TestBase.java:43)
-	at com.gac.qa.testcases.LoginPageTest.setup(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -186,47 +417,6 @@
                   <a name="loginTest">
                   </a> <!-- loginTest -->
                   <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\perennial\PS-workspace\GACTest\Drivers\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.gac.qa.base.TestBase.initialization(TestBase.java:43)
-	at com.gac.qa.testcases.LoginPageTest.setup(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -234,168 +424,461 @@
                   <a name="validateLogo2c2pTest">
                   </a> <!-- validateLogo2c2pTest -->
                   <span class="method-name">validateLogo2c2pTest</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\perennial\PS-workspace\GACTest\Drivers\chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.gac.qa.base.TestBase.initialization(TestBase.java:43)
-	at com.gac.qa.testcases.LoginPageTest.setup(LoginPageTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-GAC_Company_Portal_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel GAC_Company_Portal_Test_Automation_Suite -->
+        <div panel-name="test-xml-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\perennial\AppData\Local\Temp\testng-eclipse-1749777228\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\perennial\git\GAC_CompanyPortal\GACTest\src\main\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;GAC Company Portal Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.gac.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GAC Company Portal Test Cases&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.DashboardPageTest&quot;/&gt;
       &lt;class name=&quot;com.gac.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.ProfileSettingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.EditProfileSettingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.ChangePasswordPageTest&quot;/&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.CompanySettingsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.gac.qa.testcases.EditCompanySettingsPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- GAC Company Portal Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- GAC Company Portal Test Automation Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for GAC Company Portal Test Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">GAC Company Portal Test Cases (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for GAC Company Portal Test Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for GAC Company Portal Test Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_GAC_Company_Portal_Test_Automation_Suite');
+function tableData_GAC_Company_Portal_Test_Automation_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateLogo2c2pTest')
-data.setCell(0, 2, 'com.gac.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'verifyLogoutTest')
+data.setCell(0, 2, 'com.gac.qa.testcases.DashboardPageTest')
+data.setCell(0, 3, 2338);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPageTitleTest')
-data.setCell(1, 2, 'com.gac.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'enterCompanySettingsTest')
+data.setCell(1, 2, 'com.gac.qa.testcases.EditCompanySettingsPageTest')
+data.setCell(1, 3, 1938);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'com.gac.qa.testcases.LoginPageTest')
-data.setCell(2, 3, 0);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'enterCompanySettingsTest')
+data.setCell(2, 2, 'com.gac.qa.testcases.EditCompanySettingsPageTest')
+data.setCell(2, 3, 1606);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCompanySettingsLinkTest')
+data.setCell(3, 2, 'com.gac.qa.testcases.DashboardPageTest')
+data.setCell(3, 3, 1083);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'editProfileSettingTest')
+data.setCell(4, 2, 'com.gac.qa.testcases.EditProfileSettingPageTest')
+data.setCell(4, 3, 1082);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyProfileSettingLinkTest')
+data.setCell(5, 2, 'com.gac.qa.testcases.DashboardPageTest')
+data.setCell(5, 3, 988);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUserNameTest')
+data.setCell(6, 2, 'com.gac.qa.testcases.DashboardPageTest')
+data.setCell(6, 3, 764);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'editProfileSettingTest')
+data.setCell(7, 2, 'com.gac.qa.testcases.EditProfileSettingPageTest')
+data.setCell(7, 3, 730);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.gac.qa.testcases.LoginPageTest')
+data.setCell(8, 3, 566);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickOnChangePasswordBtnTest')
+data.setCell(9, 2, 'com.gac.qa.testcases.ProfileSettingPageTest')
+data.setCell(9, 3, 535);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickOnEditBtnTest')
+data.setCell(10, 2, 'com.gac.qa.testcases.ProfileSettingPageTest')
+data.setCell(10, 3, 480);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'changePasswordTest')
+data.setCell(11, 2, 'com.gac.qa.testcases.ChangePasswordPageTest')
+data.setCell(11, 3, 350);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'changePasswordTest')
+data.setCell(12, 2, 'com.gac.qa.testcases.ChangePasswordPageTest')
+data.setCell(12, 3, 350);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProfileSettingLabelTest')
+data.setCell(13, 2, 'com.gac.qa.testcases.ProfileSettingPageTest')
+data.setCell(13, 3, 214);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateLogo2c2pTest')
+data.setCell(14, 2, 'com.gac.qa.testcases.LoginPageTest')
+data.setCell(14, 3, 100);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCompanySettingsLabelTest')
+data.setCell(15, 2, 'com.gac.qa.testcases.EditCompanySettingsPageTest')
+data.setCell(15, 3, 84);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyChangePasswordLabelTest')
+data.setCell(16, 2, 'com.gac.qa.testcases.ChangePasswordPageTest')
+data.setCell(16, 3, 72);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyCompanySettingsLabelTest')
+data.setCell(17, 2, 'com.gac.qa.testcases.CompanySettingsPageTest')
+data.setCell(17, 3, 60);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'veifyEditLabelTest')
+data.setCell(18, 2, 'com.gac.qa.testcases.EditProfileSettingPageTest')
+data.setCell(18, 3, 41);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyDashboardPageTitleTest')
+data.setCell(19, 2, 'com.gac.qa.testcases.DashboardPageTest')
+data.setCell(19, 3, 34);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginPageTitleTest')
+data.setCell(20, 2, 'com.gac.qa.testcases.LoginPageTest')
+data.setCell(20, 3, 19);
+window.suiteTableData['GAC_Company_Portal_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-GAC_Company_Portal_Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-GAC_Company_Portal_Test_Automation_Suite">
+              </div> <!-- times-div-GAC_Company_Portal_Test_Automation_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for GAC Company Portal Test Automation Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-GAC_Company_Portal_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.gac.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLogo2c2pTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.gac.qa.testcases.DashboardPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDashboardPageTitleTest</span>
+                <span class="method-start">13555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserNameTest</span>
+                <span class="method-start">26698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProfileSettingLinkTest</span>
+                <span class="method-start">40077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41066 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanySettingsLinkTest</span>
+                <span class="method-start">56585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutTest</span>
+                <span class="method-start">70463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">85469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">86202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogo2c2pTest</span>
+                <span class="method-start">99265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">100044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">110613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111180 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.ProfileSettingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">111926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProfileSettingLabelTest</span>
+                <span class="method-start">126039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">127008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnChangePasswordBtnTest</span>
+                <span class="method-start">140897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">141433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">142233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnEditBtnTest</span>
+                <span class="method-start">156450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">156931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.EditProfileSettingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">157649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">veifyEditLabelTest</span>
+                <span class="method-start">171250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editProfileSettingTest(gaurav sup, QA, 9.1965758E7, 123456.0, GAC)</span>
+                <span class="method-start">185935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">187798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editProfileSettingTest(gaurav , sup, 9.657583258E9, 12345.0, QA)</span>
+                <span class="method-start">202648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203378 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.ChangePasswordPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">204969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Test@123, Test@1234)</span>
+                <span class="method-start">218438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">218790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">219527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Test@1234, Test@123)</span>
+                <span class="method-start">234197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">235754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyChangePasswordLabelTest</span>
+                <span class="method-start">249466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">249538 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.CompanySettingsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanySettingsLabelTest</span>
+                <span class="method-start">265232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265292 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.gac.qa.testcases.EditCompanySettingsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">266038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanySettingsLabelTest</span>
+                <span class="method-start">280518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">280602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">281446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterCompanySettingsTest(B2 B2, JJ11 213, BKK00 012, Huaykwang Abc, 10210 011, INR, 12345 543, INDIA, Active)</span>
+                <span class="method-start">295177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">297116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">297896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterCompanySettingsTest(B2 , JJ11, BKK00, Huaykwang, 10211, THB, 12346, THAILAND, Active)</span>
+                <span class="method-start">311299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">312906 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gac.qa.testcases.LoginPageTest">
+      <class name="com.gac.qa.testcases.EditCompanySettingsPageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
+          <include name="enterCompanySettingsTest" invocation-numbers="0 1"/>
           <include name="setup"/>
-          <include name="loginPageTitleTest"/>
-          <include name="validateLogo2c2pTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.gac.qa.testcases.LoginPageTest -->
+      </class> <!-- com.gac.qa.testcases.EditCompanySettingsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

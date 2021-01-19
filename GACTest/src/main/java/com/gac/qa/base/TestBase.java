@@ -38,8 +38,8 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) 
 			{
-			 	System.setProperty("webdriver.chrome.driver","C:\\Users\\perennial\\PS-workspace"
-			 		+ "\\GACTest\\Drivers\\chromedriver.exe");
+			 	System.setProperty("webdriver.chrome.driver","C:\\Users\\perennial\\git\\GAC_CompanyPortal"
+			 			+ "\\GACTest\\Drivers\\chromedriver.exe");
 			 	driver = new ChromeDriver();
 			}
 		else if (browserName.equalsIgnoreCase("firefox")) 

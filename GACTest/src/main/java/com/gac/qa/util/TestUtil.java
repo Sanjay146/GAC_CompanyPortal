@@ -13,8 +13,8 @@ public class TestUtil {
 	public static long PAGE_LOAD_TIMEOUT = 15;
 	public static long IMPLICIT_WAIT = 10;
 	
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\perennial\\PS-workspace\\"
-			+ "GACTest\\src\\main\\java\\com\\gac\\qa\\testdata\\testdata.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\perennial\\git\\GAC_CompanyPortal"
+			+ "\\GACTest\\src\\main\\java\\com\\gac\\qa\\testdata\\testdata.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;

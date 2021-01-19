@@ -1,16 +1,19 @@
 package com.gac.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import com.gac.qa.base.TestBase;
+
+
 
 public class EditCompanySettingsPage extends TestBase {
 	
 	@FindBy(xpath="//span[contains(text(),'Edit Company Setting')]")
-	WebElement editCompanySettingLabel;
+	WebElement editCompanySettingsLabel;
 	
 	@FindBy(xpath="//input[@name='companyName']")
 	WebElement company;
@@ -18,7 +21,7 @@ public class EditCompanySettingsPage extends TestBase {
 	@FindBy(xpath="//input[@name='contactPerson']")
 	WebElement contactPerson;
 	
-	@FindBy(xpath="//input[@name='address']")
+	@FindBy(xpath="//textarea[@name='address']")
 	WebElement address;
 	
 	@FindBy(xpath="//input[@name='state']")
@@ -54,8 +57,8 @@ public class EditCompanySettingsPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void verifyEditCompanySettingLabel() {
-		editCompanySettingLabel.isDisplayed();
+	public void verifyEditCompanySettingsLabel() {
+		editCompanySettingsLabel.isDisplayed();
 	}
 	
 	public void enterCompanySettings(String comp, String contactP, String add, String st, 
@@ -72,20 +75,24 @@ public class EditCompanySettingsPage extends TestBase {
 		postalCode.sendKeys(postCode);
 		currencyCode.clear();
 		currencyCode.sendKeys(currency);
+		currencyCode.sendKeys(Keys.ENTER);
 		contactNumber.clear();
 		contactNumber.sendKeys(contact);
 		country.clear();
-		Select select = new Select(country);
-		select.selectByVisibleText(cntry);
+		country.sendKeys(cntry);
+		country.sendKeys(Keys.ENTER);
 		
 		if(status.equals("Active")) {
-			radioBtnActive.click();
+			Assert.assertTrue(radioBtnActive.isSelected());
 		}
 		else radioBtnInactive.click();
 		
 	}
 	
+
 	public void clickOnSaveBtn() {
+	
+		Assert.assertTrue(saveBtn.isEnabled());
 		saveBtn.click();
 	}
 	
