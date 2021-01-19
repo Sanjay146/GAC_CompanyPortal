@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GAC Company Portal Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.gac.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="GAC Company Portal Test Cases(failed)">
+    <classes>
+      <class name="com.gac.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.LoginPageTest -->
+      <class name="com.gac.qa.testcases.EditProfileSettingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="veifyEditLabelTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.EditProfileSettingPageTest -->
+      <class name="com.gac.qa.testcases.ChangePasswordPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="changePasswordTest"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.ChangePasswordPageTest -->
+      <class name="com.gac.qa.testcases.CompanySettingsPageTest">
+        <methods>
+          <include name="verifyCompanySettingsLabelTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.CompanySettingsPageTest -->
+    </classes>
+  </test> <!-- GAC Company Portal Test Cases(failed) -->
+</suite> <!-- Failed suite [GAC Company Portal Test Automation Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GAC Company Portal Test Automation Suite">
+	<listeners>
+		<listener
+			class-name="com.gac.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="GAC Company Portal Test Cases">
+		<classes>
+			<class name="com.gac.qa.testcases.DashboardPageTest" />
+			<class name="com.gac.qa.testcases.LoginPageTest" />
+			<class name="com.gac.qa.testcases.ProfileSettingPageTest" />
+			<class name="com.gac.qa.testcases.EditProfileSettingPageTest" />
+			<class name="com.gac.qa.testcases.ChangePasswordPageTest" />
+			<class name="com.gac.qa.testcases.CompanySettingsPageTest" /> 		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
