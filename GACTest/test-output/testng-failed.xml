@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GAC Company Portal Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.gac.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="GAC Company Portal Test Cases(failed)">
     <classes>
-      <class name="com.gac.qa.testcases.EditCompanySettingsPageTest">
+      <class name="com.gac.qa.testcases.ChangePasswordPageTest">
         <methods>
-          <include name="enterCompanySettingsTest" invocation-numbers="0 1"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="verifyChangePasswordLabelTest"/>
         </methods>
-      </class> <!-- com.gac.qa.testcases.EditCompanySettingsPageTest -->
+      </class> <!-- com.gac.qa.testcases.ChangePasswordPageTest -->
+      <class name="com.gac.qa.testcases.EditProfileSettingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="veifyEditLabelTest"/>
+          <include name="editProfileSettingTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.EditProfileSettingPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- GAC Company Portal Test Cases(failed) -->
+</suite> <!-- Failed suite [GAC Company Portal Test Automation Suite] -->

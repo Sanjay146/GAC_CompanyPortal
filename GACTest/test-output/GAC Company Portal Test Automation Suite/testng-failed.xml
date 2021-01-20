@@ -6,13 +6,21 @@
   </listeners>
   <test thread-count="5" name="GAC Company Portal Test Cases(failed)">
     <classes>
-      <class name="com.gac.qa.testcases.EditCompanySettingsPageTest">
+      <class name="com.gac.qa.testcases.ChangePasswordPageTest">
         <methods>
-          <include name="enterCompanySettingsTest" invocation-numbers="0 1"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="verifyChangePasswordLabelTest"/>
         </methods>
-      </class> <!-- com.gac.qa.testcases.EditCompanySettingsPageTest -->
+      </class> <!-- com.gac.qa.testcases.ChangePasswordPageTest -->
+      <class name="com.gac.qa.testcases.EditProfileSettingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="veifyEditLabelTest"/>
+          <include name="editProfileSettingTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gac.qa.testcases.EditProfileSettingPageTest -->
     </classes>
   </test> <!-- GAC Company Portal Test Cases(failed) -->
 </suite> <!-- Failed suite [GAC Company Portal Test Automation Suite] -->

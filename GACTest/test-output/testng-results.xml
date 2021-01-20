@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+<testng-results skipped="4" failed="0" ignored="0" total="21" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="GAC Company Portal Test Automation Suite" duration-ms="313673" started-at="2021-01-19T23:40:40 IST" finished-at="2021-01-19T23:45:54 IST">
+  <suite name="GAC Company Portal Test Automation Suite" duration-ms="317900" started-at="2021-01-20T10:16:15 IST" finished-at="2021-01-20T10:21:33 IST">
     <groups>
     </groups>
-    <test name="GAC Company Portal Test Cases" duration-ms="313673" started-at="2021-01-19T23:40:40 IST" finished-at="2021-01-19T23:45:54 IST">
+    <test name="GAC Company Portal Test Cases" duration-ms="317900" started-at="2021-01-20T10:16:15 IST" finished-at="2021-01-20T10:21:33 IST">
       <class name="com.gac.qa.testcases.CompanySettingsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="setup" is-config="true" duration-ms="14714" started-at="2021-01-19T23:44:50 IST" finished-at="2021-01-19T23:45:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="setup" is-config="true" duration-ms="11657" started-at="2021-01-20T10:20:24 IST" finished-at="2021-01-20T10:20:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCompanySettingsLabelTest()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="verifyCompanySettingsLabelTest" duration-ms="60" started-at="2021-01-19T23:45:05 IST" finished-at="2021-01-19T23:45:05 IST">
+        <test-method status="PASS" signature="verifyCompanySettingsLabelTest()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="verifyCompanySettingsLabelTest" duration-ms="43" started-at="2021-01-20T10:20:35 IST" finished-at="2021-01-20T10:20:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompanySettingsLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="tearDown" is-config="true" duration-ms="746" started-at="2021-01-19T23:45:05 IST" finished-at="2021-01-19T23:45:06 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.CompanySettingsPageTest@4b553d26]" name="tearDown" is-config="true" duration-ms="1607" started-at="2021-01-20T10:20:35 IST" finished-at="2021-01-20T10:20:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.CompanySettingsPageTest -->
       <class name="com.gac.qa.testcases.DashboardPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="13552" started-at="2021-01-19T23:40:40 IST" finished-at="2021-01-19T23:40:54 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="16942" started-at="2021-01-20T10:16:15 IST" finished-at="2021-01-20T10:16:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyDashboardPageTitleTest()[pri:1, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyDashboardPageTitleTest" duration-ms="34" started-at="2021-01-19T23:40:54 IST" finished-at="2021-01-19T23:40:54 IST">
+        <test-method status="PASS" signature="verifyDashboardPageTitleTest()[pri:1, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyDashboardPageTitleTest" duration-ms="21" started-at="2021-01-20T10:16:32 IST" finished-at="2021-01-20T10:16:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDashboardPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="737" started-at="2021-01-19T23:40:54 IST" finished-at="2021-01-19T23:40:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="730" started-at="2021-01-20T10:16:32 IST" finished-at="2021-01-20T10:16:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="12368" started-at="2021-01-19T23:40:54 IST" finished-at="2021-01-19T23:41:07 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="11470" started-at="2021-01-20T10:16:33 IST" finished-at="2021-01-20T10:16:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyUserNameTest" duration-ms="764" started-at="2021-01-19T23:41:07 IST" finished-at="2021-01-19T23:41:07 IST">
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyUserNameTest" duration-ms="5291" started-at="2021-01-20T10:16:44 IST" finished-at="2021-01-20T10:16:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-01-19T23:41:07 IST" finished-at="2021-01-19T23:41:08 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="685" started-at="2021-01-20T10:16:50 IST" finished-at="2021-01-20T10:16:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="11885" started-at="2021-01-19T23:41:08 IST" finished-at="2021-01-19T23:41:20 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="14988" started-at="2021-01-20T10:16:50 IST" finished-at="2021-01-20T10:17:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyProfileSettingLinkTest()[pri:3, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyProfileSettingLinkTest" duration-ms="988" started-at="2021-01-19T23:41:20 IST" finished-at="2021-01-19T23:41:21 IST">
+        <test-method status="PASS" signature="verifyProfileSettingLinkTest()[pri:3, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyProfileSettingLinkTest" duration-ms="1106" started-at="2021-01-20T10:17:05 IST" finished-at="2021-01-20T10:17:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileSettingLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="1703" started-at="2021-01-19T23:41:21 IST" finished-at="2021-01-19T23:41:23 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="960" started-at="2021-01-20T10:17:06 IST" finished-at="2021-01-20T10:17:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="13815" started-at="2021-01-19T23:41:23 IST" finished-at="2021-01-19T23:41:37 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="15498" started-at="2021-01-20T10:17:07 IST" finished-at="2021-01-20T10:17:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCompanySettingsLinkTest()[pri:4, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyCompanySettingsLinkTest" duration-ms="1083" started-at="2021-01-19T23:41:37 IST" finished-at="2021-01-19T23:41:38 IST">
+        <test-method status="PASS" signature="verifyCompanySettingsLinkTest()[pri:4, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyCompanySettingsLinkTest" duration-ms="1246" started-at="2021-01-20T10:17:23 IST" finished-at="2021-01-20T10:17:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompanySettingsLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="1287" started-at="2021-01-19T23:41:38 IST" finished-at="2021-01-19T23:41:39 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="657" started-at="2021-01-20T10:17:24 IST" finished-at="2021-01-20T10:17:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="11507" started-at="2021-01-19T23:41:39 IST" finished-at="2021-01-19T23:41:50 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="setup" is-config="true" duration-ms="10988" started-at="2021-01-20T10:17:25 IST" finished-at="2021-01-20T10:17:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogoutTest()[pri:5, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyLogoutTest" duration-ms="2338" started-at="2021-01-19T23:41:50 IST" finished-at="2021-01-19T23:41:53 IST">
+        <test-method status="PASS" signature="verifyLogoutTest()[pri:5, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="verifyLogoutTest" duration-ms="2354" started-at="2021-01-20T10:17:36 IST" finished-at="2021-01-20T10:17:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="1499" started-at="2021-01-19T23:41:53 IST" finished-at="2021-01-19T23:41:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.DashboardPageTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="1674" started-at="2021-01-20T10:17:38 IST" finished-at="2021-01-20T10:17:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.DashboardPageTest -->
       <class name="com.gac.qa.testcases.ChangePasswordPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="13468" started-at="2021-01-19T23:44:05 IST" finished-at="2021-01-19T23:44:18 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="16726" started-at="2021-01-20T10:19:31 IST" finished-at="2021-01-20T10:19:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:1, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="changePasswordTest" duration-ms="350" started-at="2021-01-19T23:44:18 IST" data-provider="getChangePasswordData" finished-at="2021-01-19T23:44:19 IST">
+        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:1, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="changePasswordTest" duration-ms="328" started-at="2021-01-20T10:19:48 IST" data-provider="getChangePasswordData" finished-at="2021-01-20T10:19:48 IST">
           <params>
             <param index="0">
               <value>
@@ -103,15 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="737" started-at="2021-01-19T23:44:19 IST" finished-at="2021-01-19T23:44:19 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-01-20T10:19:48 IST" finished-at="2021-01-20T10:19:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="14670" started-at="2021-01-19T23:44:19 IST" finished-at="2021-01-19T23:44:34 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="16862" started-at="2021-01-20T10:19:49 IST" finished-at="2021-01-20T10:20:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:1, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="changePasswordTest" duration-ms="350" started-at="2021-01-19T23:44:34 IST" data-provider="getChangePasswordData" finished-at="2021-01-19T23:44:35 IST">
+        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:1, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="changePasswordTest" duration-ms="300" started-at="2021-01-20T10:20:06 IST" data-provider="getChangePasswordData" finished-at="2021-01-20T10:20:06 IST">
           <params>
             <param index="0">
               <value>
@@ -127,41 +127,185 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="1206" started-at="2021-01-19T23:44:35 IST" finished-at="2021-01-19T23:44:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="648" started-at="2021-01-20T10:20:06 IST" finished-at="2021-01-20T10:20:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="13712" started-at="2021-01-19T23:44:36 IST" finished-at="2021-01-19T23:44:49 IST">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="setup" is-config="true" duration-ms="16674" started-at="2021-01-20T10:20:07 IST" finished-at="2021-01-20T10:20:23 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="btn btn-rounded btn-primary block" tabindex="0">...</button> is not clickable at point (803, 537). Other element would receive the click: <div _ngcontent-fle-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c814315810d88431779dc5528a13e769]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="btn btn-rounded btn-primary block" tabindex="0">...</button> is not clickable at point (803, 537). Other element would receive the click: <div _ngcontent-fle-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c814315810d88431779dc5528a13e769
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnChangePasswordBtn(ProfileSettingPage.java:29)
+at com.gac.qa.testcases.ChangePasswordPageTest.setup(ChangePasswordPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyChangePasswordLabelTest()[pri:2, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="verifyChangePasswordLabelTest" duration-ms="72" started-at="2021-01-19T23:44:49 IST" finished-at="2021-01-19T23:44:49 IST">
+        <test-method status="SKIP" signature="verifyChangePasswordLabelTest()[pri:2, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="verifyChangePasswordLabelTest" duration-ms="0" started-at="2021-01-20T10:20:23 IST" finished-at="2021-01-20T10:20:23 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="submit" class="btn btn-rounded btn-primary block" tabindex="0">...</button> is not clickable at point (803, 537). Other element would receive the click: <div _ngcontent-fle-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c814315810d88431779dc5528a13e769]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="btn btn-rounded btn-primary block" tabindex="0">...</button> is not clickable at point (803, 537). Other element would receive the click: <div _ngcontent-fle-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c814315810d88431779dc5528a13e769
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnChangePasswordBtn(ProfileSettingPage.java:29)
+at com.gac.qa.testcases.ChangePasswordPageTest.setup(ChangePasswordPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChangePasswordLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="980" started-at="2021-01-19T23:44:49 IST" finished-at="2021-01-19T23:44:50 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ChangePasswordPageTest@80503]" name="tearDown" is-config="true" duration-ms="-1611118224000" started-at="2021-01-20T10:20:24 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.ChangePasswordPageTest -->
       <class name="com.gac.qa.testcases.EditCompanySettingsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="14480" started-at="2021-01-19T23:45:06 IST" finished-at="2021-01-19T23:45:20 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="17144" started-at="2021-01-20T10:20:37 IST" finished-at="2021-01-20T10:20:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCompanySettingsLabelTest()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="verifyCompanySettingsLabelTest" duration-ms="84" started-at="2021-01-19T23:45:20 IST" finished-at="2021-01-19T23:45:21 IST">
+        <test-method status="PASS" signature="verifyCompanySettingsLabelTest()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="verifyCompanySettingsLabelTest" duration-ms="382" started-at="2021-01-20T10:20:54 IST" finished-at="2021-01-20T10:20:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompanySettingsLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-01-19T23:45:21 IST" finished-at="2021-01-19T23:45:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="873" started-at="2021-01-20T10:20:54 IST" finished-at="2021-01-20T10:20:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="13731" started-at="2021-01-19T23:45:21 IST" finished-at="2021-01-19T23:45:35 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="16043" started-at="2021-01-20T10:20:55 IST" finished-at="2021-01-20T10:21:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="enterCompanySettingsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="enterCompanySettingsTest" duration-ms="1938" started-at="2021-01-19T23:45:35 IST" data-provider="getCompanySettingsData" finished-at="2021-01-19T23:45:37 IST">
+        <test-method status="PASS" signature="enterCompanySettingsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="enterCompanySettingsTest" duration-ms="2598" started-at="2021-01-20T10:21:11 IST" data-provider="getCompanySettingsData" finished-at="2021-01-20T10:21:14 IST">
           <params>
             <param index="0">
               <value>
@@ -212,15 +356,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCompanySettingsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="780" started-at="2021-01-19T23:45:37 IST" finished-at="2021-01-19T23:45:38 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="759" started-at="2021-01-20T10:21:14 IST" finished-at="2021-01-20T10:21:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="13403" started-at="2021-01-19T23:45:38 IST" finished-at="2021-01-19T23:45:51 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="setup" is-config="true" duration-ms="15622" started-at="2021-01-20T10:21:15 IST" finished-at="2021-01-20T10:21:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="enterCompanySettingsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="enterCompanySettingsTest" duration-ms="1606" started-at="2021-01-19T23:45:51 IST" data-provider="getCompanySettingsData" finished-at="2021-01-19T23:45:53 IST">
+        <test-method status="PASS" signature="enterCompanySettingsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="enterCompanySettingsTest" duration-ms="1887" started-at="2021-01-20T10:21:30 IST" data-provider="getCompanySettingsData" finished-at="2021-01-20T10:21:32 IST">
           <params>
             <param index="0">
               <value>
@@ -271,29 +415,173 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCompanySettingsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="729" started-at="2021-01-19T23:45:53 IST" finished-at="2021-01-19T23:45:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditCompanySettingsPageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="731" started-at="2021-01-20T10:21:32 IST" finished-at="2021-01-20T10:21:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.EditCompanySettingsPageTest -->
       <class name="com.gac.qa.testcases.EditProfileSettingPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="13601" started-at="2021-01-19T23:43:18 IST" finished-at="2021-01-19T23:43:31 IST">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="13699" started-at="2021-01-20T10:19:16 IST" finished-at="2021-01-20T10:19:30 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnEditBtn(ProfileSettingPage.java:34)
+at com.gac.qa.testcases.EditProfileSettingPageTest.setup(EditProfileSettingPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="veifyEditLabelTest()[pri:1, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="veifyEditLabelTest" duration-ms="41" started-at="2021-01-19T23:43:31 IST" finished-at="2021-01-19T23:43:31 IST">
+        <test-method status="SKIP" signature="veifyEditLabelTest()[pri:1, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="veifyEditLabelTest" duration-ms="0" started-at="2021-01-20T10:19:30 IST" finished-at="2021-01-20T10:19:30 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnEditBtn(ProfileSettingPage.java:34)
+at com.gac.qa.testcases.EditProfileSettingPageTest.setup(EditProfileSettingPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veifyEditLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="691" started-at="2021-01-19T23:43:31 IST" finished-at="2021-01-19T23:43:32 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="-1611118170360" started-at="2021-01-20T10:19:30 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="13319" started-at="2021-01-19T23:43:33 IST" finished-at="2021-01-19T23:43:46 IST">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="-1611118171559" started-at="2021-01-20T10:19:31 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="editProfileSettingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="editProfileSettingTest" duration-ms="1082" started-at="2021-01-19T23:43:46 IST" data-provider="getProfileSettingData" finished-at="2021-01-19T23:43:47 IST">
+        <test-method status="SKIP" signature="editProfileSettingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="editProfileSettingTest" duration-ms="0" started-at="2021-01-20T10:19:31 IST" data-provider="getProfileSettingData" finished-at="2021-01-20T10:19:31 IST">
           <params>
             <param index="0">
               <value>
@@ -321,18 +609,90 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnEditBtn(ProfileSettingPage.java:34)
+at com.gac.qa.testcases.EditProfileSettingPageTest.setup(EditProfileSettingPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProfileSettingTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="779" started-at="2021-01-19T23:43:47 IST" finished-at="2021-01-19T23:43:48 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="-1611118171582" started-at="2021-01-20T10:19:31 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="14850" started-at="2021-01-19T23:43:48 IST" finished-at="2021-01-19T23:44:03 IST">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="setup" is-config="true" duration-ms="-1611118171587" started-at="2021-01-20T10:19:31 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="editProfileSettingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="editProfileSettingTest" duration-ms="730" started-at="2021-01-19T23:44:03 IST" data-provider="getProfileSettingData" finished-at="2021-01-19T23:44:03 IST">
+        <test-method status="SKIP" signature="editProfileSettingTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="editProfileSettingTest" duration-ms="0" started-at="2021-01-20T10:19:31 IST" data-provider="getProfileSettingData" finished-at="2021-01-20T10:19:31 IST">
           <params>
             <param index="0">
               <value>
@@ -360,86 +720,158 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-rounded btn-outline-primary block">...</button> is not clickable at point (1089, 537). Other element would receive the click: <div _ngcontent-jln-c41="" class="overlay ng-tns-c41-0 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(255, 255, 255, 0.8); z-index: 99999; position: absolute; opacity: 1;">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ELFRPEH', ip: '172.31.248.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\PERENN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: faa80d43baf7a78eadf5f3ad52bd8976
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at com.gac.qa.pages.ProfileSettingPage.clickOnEditBtn(ProfileSettingPage.java:34)
+at com.gac.qa.testcases.EditProfileSettingPageTest.setup(EditProfileSettingPageTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProfileSettingTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="1506" started-at="2021-01-19T23:44:03 IST" finished-at="2021-01-19T23:44:05 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.EditProfileSettingPageTest@2f943d71]" name="tearDown" is-config="true" duration-ms="-1611118171599" started-at="2021-01-20T10:19:31 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.EditProfileSettingPageTest -->
       <class name="com.gac.qa.testcases.ProfileSettingPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="14113" started-at="2021-01-19T23:42:32 IST" finished-at="2021-01-19T23:42:46 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="16667" started-at="2021-01-20T10:18:24 IST" finished-at="2021-01-20T10:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyProfileSettingLabelTest()[pri:1, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="verifyProfileSettingLabelTest" duration-ms="214" started-at="2021-01-19T23:42:46 IST" finished-at="2021-01-19T23:42:46 IST">
+        <test-method status="PASS" signature="verifyProfileSettingLabelTest()[pri:1, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="verifyProfileSettingLabelTest" duration-ms="49" started-at="2021-01-20T10:18:41 IST" finished-at="2021-01-20T10:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProfileSettingLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="754" started-at="2021-01-19T23:42:46 IST" finished-at="2021-01-19T23:42:47 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-01-20T10:18:41 IST" finished-at="2021-01-20T10:18:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="13889" started-at="2021-01-19T23:42:47 IST" finished-at="2021-01-19T23:43:01 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="15056" started-at="2021-01-20T10:18:42 IST" finished-at="2021-01-20T10:18:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnChangePasswordBtnTest()[pri:2, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="clickOnChangePasswordBtnTest" duration-ms="535" started-at="2021-01-19T23:43:01 IST" finished-at="2021-01-19T23:43:01 IST">
+        <test-method status="PASS" signature="clickOnChangePasswordBtnTest()[pri:2, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="clickOnChangePasswordBtnTest" duration-ms="549" started-at="2021-01-20T10:18:57 IST" finished-at="2021-01-20T10:18:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnChangePasswordBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="800" started-at="2021-01-19T23:43:01 IST" finished-at="2021-01-19T23:43:02 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-01-20T10:18:57 IST" finished-at="2021-01-20T10:18:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="14217" started-at="2021-01-19T23:43:02 IST" finished-at="2021-01-19T23:43:16 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="setup" is-config="true" duration-ms="15895" started-at="2021-01-20T10:18:58 IST" finished-at="2021-01-20T10:19:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnEditBtnTest()[pri:3, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="clickOnEditBtnTest" duration-ms="480" started-at="2021-01-19T23:43:16 IST" finished-at="2021-01-19T23:43:17 IST">
+        <test-method status="PASS" signature="clickOnEditBtnTest()[pri:3, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="clickOnEditBtnTest" duration-ms="1229" started-at="2021-01-20T10:19:14 IST" finished-at="2021-01-20T10:19:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnEditBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="718" started-at="2021-01-19T23:43:17 IST" finished-at="2021-01-19T23:43:18 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.ProfileSettingPageTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="1181" started-at="2021-01-20T10:19:15 IST" finished-at="2021-01-20T10:19:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gac.qa.testcases.ProfileSettingPageTest -->
       <class name="com.gac.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="11165" started-at="2021-01-19T23:41:54 IST" finished-at="2021-01-19T23:42:05 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="13523" started-at="2021-01-20T10:17:40 IST" finished-at="2021-01-20T10:17:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="loginPageTitleTest" duration-ms="19" started-at="2021-01-19T23:42:05 IST" finished-at="2021-01-19T23:42:05 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="loginPageTitleTest" duration-ms="7" started-at="2021-01-20T10:17:53 IST" finished-at="2021-01-20T10:17:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="714" started-at="2021-01-19T23:42:05 IST" finished-at="2021-01-19T23:42:06 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="638" started-at="2021-01-20T10:17:53 IST" finished-at="2021-01-20T10:17:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="13062" started-at="2021-01-19T23:42:06 IST" finished-at="2021-01-19T23:42:19 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="14344" started-at="2021-01-20T10:17:54 IST" finished-at="2021-01-20T10:18:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateLogo2c2pTest()[pri:2, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="validateLogo2c2pTest" duration-ms="100" started-at="2021-01-19T23:42:19 IST" finished-at="2021-01-19T23:42:19 IST">
+        <test-method status="PASS" signature="validateLogo2c2pTest()[pri:2, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="validateLogo2c2pTest" duration-ms="55" started-at="2021-01-20T10:18:08 IST" finished-at="2021-01-20T10:18:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogo2c2pTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="677" started-at="2021-01-19T23:42:19 IST" finished-at="2021-01-19T23:42:20 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-01-20T10:18:08 IST" finished-at="2021-01-20T10:18:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="10569" started-at="2021-01-19T23:42:20 IST" finished-at="2021-01-19T23:42:31 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="setup" is-config="true" duration-ms="13775" started-at="2021-01-20T10:18:09 IST" finished-at="2021-01-20T10:18:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="loginTest" duration-ms="566" started-at="2021-01-19T23:42:31 IST" finished-at="2021-01-19T23:42:31 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="loginTest" duration-ms="744" started-at="2021-01-20T10:18:23 IST" finished-at="2021-01-20T10:18:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="746" started-at="2021-01-19T23:42:31 IST" finished-at="2021-01-19T23:42:32 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gac.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="731" started-at="2021-01-20T10:18:23 IST" finished-at="2021-01-20T10:18:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
