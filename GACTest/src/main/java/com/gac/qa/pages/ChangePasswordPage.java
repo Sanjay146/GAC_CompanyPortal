@@ -3,6 +3,7 @@ package com.gac.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.gac.qa.base.TestBase;
 
@@ -43,6 +44,7 @@ public class ChangePasswordPage extends TestBase {
 	
 	
 	public void clickOnSaveBtn() {
+		Assert.assertTrue(saveBtn.isEnabled());
 		saveBtn.click();
 	}
 	

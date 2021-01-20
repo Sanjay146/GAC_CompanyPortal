@@ -3,6 +3,7 @@ package com.gac.qa.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.gac.qa.base.TestBase;
 
@@ -26,11 +27,13 @@ public class ProfileSettingPage extends TestBase {
 	}
 	
 	public ChangePasswordPage clickOnChangePasswordBtn() {
+		Assert.assertTrue(changePasswordBtn.isEnabled());
 		changePasswordBtn.click();
 		return new ChangePasswordPage();
 	}
 	
 	public EditProfileSettingPage clickOnEditBtn() {
+		Assert.assertTrue(editBtn.isEnabled());
 		editBtn.click();
 		return new EditProfileSettingPage();
 	}
